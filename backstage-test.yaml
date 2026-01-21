@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: personal-backstage-project
+  description: yaml file for exploring backstage
+  annotations:
+    backstage.io/source-template: template:default/react-ssr-template
+spec:
+  type: service
+  lifecycle: dev
+  owner: team-z
+  system: personal-repo
